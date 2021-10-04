@@ -1,0 +1,29 @@
+body {
+    font-family:Roboto;
+    background-color: #F57501;
+    color: #D1E8FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Dangrek;
+    font-size:40pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    border: 2px solid;
+    background-color: #A85100;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align:center;
+}
