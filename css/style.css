@@ -43,6 +43,7 @@ header {
 
 #gallery {
     border: 5px dotted #000000;
+    margin-bottom:2rem;
 }
 
 #gallery img {
@@ -51,4 +52,29 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+#lit {
+    border: 5px dotted #000000;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width:40rem;
+    margin:0 auto;
+}
+
+#lit div p {
+    padding:0.3rem 0;
+}
+
+#lit div p:first-letter {
+    color:#000000;
+    background-color: #A85100;
+    box-shadow: 5px,5px,5px rgba(0, 0, 0, .5)
+    float:left;
+    font-size:5em;
+    line-height:.75em;
+    border: 3px dotted #FFFFFF;
 }
