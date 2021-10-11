@@ -40,3 +40,15 @@ header {
     color: #DC143C;
     background-image: linear-gradient(to right, #f1f1ca, #A52A2A);
 }
+
+#gallery {
+    border: 5px dotted #000000;
+}
+
+#gallery img {
+    max: width 100%;
+}
+
+#gallery figure {
+    text-align: center;
+}
