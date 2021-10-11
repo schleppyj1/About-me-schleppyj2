@@ -6,6 +6,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:Dangrek;
+    text-align:center;
+}
+
+h1 {
     font-size:40pt;
 }
 
@@ -26,4 +30,13 @@ header {
 
 #bio {
     text-align:center;
+}
+
+#hobbies ul li:nth-child(2n+1){
+    background-image: linear-gradient(to right,#D2691E,#A52A2A);
+}
+
+#hobbies ul li:nth-child(2n){
+    color: #DC143C;
+    background-image: linear-gradient(to right, #f1f1ca, #A52A2A);
 }
