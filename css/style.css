@@ -43,7 +43,7 @@ header {
 }
 
 * {
-    outline: 1px solid black;
+    outline: 0px;
 }
 
 #hobbies ul li:nth-child(2n+1){
@@ -83,7 +83,7 @@ header {
     padding:0.3rem 0;
 }
 
-#lit div p:first-letter {
+#lit div p:first-child::first-letter {
     color:#000000;
     background-color: #A85100;
     box-shadow: 5px,5px,5px rgba(0, 0, 0, .5)
@@ -99,11 +99,41 @@ header {
         grid-template-columns: 2fr 1fr;
     }
 
+    figure img {
+        width: 100%;
+    }
+
     figcaption {
         display: grid;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
+    }
+
+    #lit div {
+        columns: 15rem;
+        max-width: 100%;
+
+    }
+
+/*Large screen width*/
+
+@media screen and (min-width: 150em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
     }
 }
