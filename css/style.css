@@ -61,7 +61,7 @@ header {
 }
 
 #gallery img {
-    max: width 100%;
+    max-width: 100%;
 }
 
 #gallery figure {
@@ -87,7 +87,7 @@ header {
     color:#000000;
     background-color: #A85100;
     box-shadow: 5px,5px,5px rgba(0, 0, 0, .5)
-    float: left;
+    float:left;
     font-size: 5em;
     line-height: .75em;
     border: 3px dotted #FFFFFF;
@@ -112,6 +112,48 @@ header {
 
 #formelements {
     display: grid;
+    row-gap:.5em;
+}
+
+#contact {
+    padding:1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 2px solid #85c2ff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    background-color: #399cff;
+    color: #FFFFFF;
+    padding:.5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding:.5em;
+    font-size:1rem;
+}
+
+#contact ul {
+    list-style:none;
+    padding:0px;
+}
+
+#contact li {
+    margin:1rem;
+}
+
+#contact button {
+    background-color: #399cff;
+    color: #FFFFFF;
+    border: 1px solid #0076ec;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }
 
 @media screen and (min-width: 60em) {
