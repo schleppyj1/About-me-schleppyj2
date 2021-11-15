@@ -108,6 +108,12 @@ header {
     border: 0;
 }
 
+/*Contact Form*/
+
+#formelements {
+    display: grid;
+}
+
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
