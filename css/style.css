@@ -86,7 +86,7 @@ header {
 #lit div p:first-child::first-letter {
     color:#000000;
     background-color: #A85100;
-    box-shadow: 5px,5px,5px rgba(0, 0, 0, .5)
+    box-shadow: 5px,5px,5px rgba(0, 0, 0, .5);
     float:left;
     font-size: 5em;
     line-height: .75em;
