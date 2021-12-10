@@ -71,7 +71,7 @@ main {
 .navbar-links a {
     color: whitesmoke;
     background-color: #333;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
@@ -93,3 +93,16 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
