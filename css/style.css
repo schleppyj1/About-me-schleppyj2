@@ -1,7 +1,8 @@
 body {
     font-family:Roboto;
-    background-color: #F57501;
-    color: #D1E8FF;
+    background-color: #FF8294;
+    color: #000037;
+    /*#209637*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,7 +24,8 @@ header {
 
 #hero, footer {
     border: 2px solid;
-    background-color: #A85100;
+    background-color: #990016;
+    color: #BFE6C7;
     text-align:center;
     padding:10px;
 }
@@ -40,19 +42,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #000037;
 }
 
 * {
     outline: 0px;
-}
-
-#hobbies ul li:nth-child(2n+1){
-    background-image: linear-gradient(to right,#D2691E,#A52A2A);
-}
-
-#hobbies ul li:nth-child(2n){
-    color: #DC143C;
-    background-image: linear-gradient(to right, #f1f1ca, #A52A2A);
 }
 
 #gallery {
