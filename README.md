@@ -15,6 +15,11 @@
 **https://www.1001fonts.com/heavy+google-web-fonts.html?page=1&items=50**
 **https://www.figma.com/**
 
+### Blog souorces:
+**https://www.axis-praxis.org/specimens/__DEFAULT__**
+**https://web.dev/variable-fonts/**
+**https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide**
+
 ### Licenses or copyrights: The type of license I wish to release content to is a permissive license. The copyright for this webpage is listed in the footer at the bottom of the page.
 
 ![Pink and dark blue](color-scheme-1.jpeg)
