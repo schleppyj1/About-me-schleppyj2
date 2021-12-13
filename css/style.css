@@ -30,13 +30,28 @@ header {
     padding:10px;
 }
 
-#hero img {
-    width:300px;
+a {
+    color: #BFE6C7;
 }
+
+/* Top of webpage*/
+
+.float-left {
+    padding:10px;
+}
+
+#hero img {
+    width:250px;
+    border-radius: 10px;
+}
+
+/*Biography section*/
 
 #bio {
     text-align:center;
 }
+
+/* Hobbies section*/
 
 #hobbies {
     display: flex;
@@ -49,8 +64,10 @@ header {
     outline: 0px;
 }
 
+/*Gallery section*/
+
 #gallery {
-    border: 5px dotted #000000;
+    border: 5px dotted #000037;
     margin-bottom:2rem;
 }
 
@@ -61,6 +78,8 @@ header {
 #gallery figure {
     text-align: center;
 }
+
+/* Literature section*/
 
 #lit {
     border: 5px dotted #000000;
@@ -86,6 +105,8 @@ header {
     line-height: .75em;
     border: 3px dotted #FFFFFF;
 }
+
+/* Iframe section*/
 
 .videowrapper {
     position: relative;
@@ -150,6 +171,8 @@ legend {
     justify-self: center;
 }
 
+/* Media queries*/
+
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
@@ -157,11 +180,11 @@ legend {
     }
 
     figure img {
-        width: 100%;
+        width: 80%;
     }
 
     figcaption {
-        display: grid;
+        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
@@ -194,6 +217,9 @@ legend {
         display: block;
     }
 }
+/*When testing this through responsive design for normal laptop sizes,
+it does show the images in 3 columns. But as soon as I closed out of it,
+it went back to the ipad display.*/
 
 /* Media query for iframe */
 @media screen and (min-width: 60em) {
@@ -205,4 +231,4 @@ legend {
         height: 100%;
         border: 0;
     }
-}
+} 

@@ -9,9 +9,14 @@
 
 ### Citations:
 **https://color.adobe.com/create/color-wheel**
+**https://www.w3schools.com/css/css_link.asp**
+**https://www.sessions.edu/color-calculator/**
+**https://www.favicon-generator.org/**
+**https://www.1001fonts.com/heavy+google-web-fonts.html?page=1&items=50**
+**https://www.figma.com/**
 
 ### Licenses or copyrights: The type of license I wish to release content to is a permissive license. The copyright for this webpage is listed in the footer at the bottom of the page.
 
-! [Pink and dark blue] (color-scheme-1.jpeg)
+![Pink and dark blue](color-scheme-1.jpeg)
 
-! [Dark red and green] (color-scheme-2.jpeg)
+![Dark red and green](color-scheme-2.jpeg)
