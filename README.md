@@ -12,6 +12,6 @@
 
 ### Licenses or copyrights: The type of license I wish to release content to is a permissive license. The copyright for this webpage is listed in the footer at the bottom of the page.
 
-![pink and blue] (color-scheme-1.jpeg)
+<img src= "file://color-scheme-1.jpeg"/>
 
 ![Dark red and green] (color-scheme-2.jpeg)
