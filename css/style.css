@@ -1,7 +1,8 @@
 body {
     font-family:Roboto;
-    background-color: #F57501;
-    color: #D1E8FF;
+    background-color: #FF8294;
+    color: #000037;
+    /*#209637*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,40 +24,50 @@ header {
 
 #hero, footer {
     border: 2px solid;
-    background-color: #A85100;
+    background-color: #990016;
+    color: #BFE6C7;
     text-align:center;
     padding:10px;
 }
 
-#hero img {
-    width:300px;
+a {
+    color: #BFE6C7;
 }
+
+/* Top of webpage*/
+
+.float-left {
+    padding:10px;
+}
+
+#hero img {
+    width:250px;
+    border-radius: 10px;
+}
+
+/*Biography section*/
 
 #bio {
     text-align:center;
 }
 
+/* Hobbies section*/
+
 #hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #000037;
 }
 
 * {
     outline: 0px;
 }
 
-#hobbies ul li:nth-child(2n+1){
-    background-image: linear-gradient(to right,#D2691E,#A52A2A);
-}
-
-#hobbies ul li:nth-child(2n){
-    color: #DC143C;
-    background-image: linear-gradient(to right, #f1f1ca, #A52A2A);
-}
+/*Gallery section*/
 
 #gallery {
-    border: 5px dotted #000000;
+    border: 5px dotted #000037;
     margin-bottom:2rem;
 }
 
@@ -67,6 +78,8 @@ header {
 #gallery figure {
     text-align: center;
 }
+
+/* Literature section*/
 
 #lit {
     border: 5px dotted #000000;
@@ -85,13 +98,15 @@ header {
 
 #lit div p:first-child::first-letter {
     color:#000000;
-    background-color: #A85100;
-    box-shadow: 5px,5px,5px rgba(0, 0, 0, .5);
+    background-color: #FF8294;
+    box-shadow: 5px,5px,5px rgba(0, 0, 0, 0.5);
     float:left;
     font-size: 5em;
     line-height: .75em;
     border: 3px dotted #FFFFFF;
 }
+
+/* Iframe section*/
 
 .videowrapper {
     position: relative;
@@ -156,6 +171,8 @@ legend {
     justify-self: center;
 }
 
+/* Media queries*/
+
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
@@ -163,11 +180,11 @@ legend {
     }
 
     figure img {
-        width: 100%;
+        width: 80%;
     }
 
     figcaption {
-        display: grid;
+        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
@@ -200,6 +217,9 @@ legend {
         display: block;
     }
 }
+/*When testing this through responsive design for normal laptop sizes,
+it does show the images in 3 columns. But as soon as I closed out of it,
+it went back to the ipad display.*/
 
 /* Media query for iframe */
 @media screen and (min-width: 60em) {
@@ -211,4 +231,4 @@ legend {
         height: 100%;
         border: 0;
     }
-}
+} 
