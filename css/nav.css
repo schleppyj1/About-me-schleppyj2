@@ -32,6 +32,16 @@ main {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar a {
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
 }
 
 /* logo */
@@ -87,6 +97,7 @@ main {
     outline: none;
 }
 
+/*I got a hamburger menu to appear, I just cannot get it to work.*/
 
 /* 
 media query for non-mobile nav bar

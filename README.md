@@ -14,8 +14,9 @@
 **https://www.favicon-generator.org/**
 **https://www.1001fonts.com/heavy+google-web-fonts.html?page=1&items=50**
 **https://www.figma.com/**
+**https://www.w3schools.com/howto/howto_js_mobile_navbar.asp**
 
-### Blog souorces:
+### Blog sources:
 **https://www.axis-praxis.org/specimens/__DEFAULT__**
 **https://web.dev/variable-fonts/**
 **https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide**
